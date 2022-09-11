@@ -1,1 +1,1 @@
-# ani-manga-site
+# animanga-site
