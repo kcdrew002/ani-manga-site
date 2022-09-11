@@ -1,0 +1,32 @@
+
+body {
+    color: rgba(138, 50, 54, 0.897);
+}
+h1{
+    background-color: black;
+}
+h3{
+    color: black;
+}
+h4{
+    color: black
+}
+
+a:link {
+    color: black;
+  }
+  
+  
+a:visited {
+    color: lightblue;
+  }
+  
+  
+a:hover {
+    color: white;
+  }
+  
+  
+a:active {
+    color: blue;
+  }
