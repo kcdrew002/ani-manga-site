@@ -1,55 +1,134 @@
-
-
+/* Padding adds room for navbar */
 body {
-    color: rgba(138, 50, 54, 0.897);
+  color: rgba(138, 50, 54, 0.897);
+  padding-top: 1.6%;
 }
+/* vw is used to make text responsive to screen size */
 h1{
-    background-color: black;
+  background-color: black;
+  color: #E6E6E6;
+  font-size: 2vw;
+  text-align: center;
 }
 h3{
-    color: black;
+  color: rgb(255, 255, 255);
+  font-size: 1.2vw;
+  text-align: center;
+  
+
 }
 h4{
-    color: rgb(184, 129, 28);
-    font-variant: small-caps;
+  color: rgb(184, 129, 28);
+  font-variant: small-caps;
+  font-size: 0.5vw;
+
+}
+td{
+  font-size: 1.2vw;
+}
+a{
+  font-size: 1.5vw;
 }
 
 a:link {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   }
   
   
 a:visited {
-    color: lightblue;
+  color: lightblue;
   }
   
   
 a:hover {
-    color: rgb(184, 129, 28);
+  color: rgb(184, 129, 28);
   }
   
   
 a:active {
-    color: blue;
+  color: blue;
   }
-  *{
-    font-family: Arial, Helvetica, sans-serif;
+*{
+  font-family: Arial, Helvetica, sans-serif;
 
   }
-  table{
+table{
     background:rgb(82, 8, 8);
     border: solid black 2px;
     width: 80%;
   }
-  strong{
+table.center{
+  margin-left:auto; 
+  margin-right:auto;
+
+}
+strong{
     color: rgb(184, 129, 28);
     font-variant: small-caps;
     
     
   }
-  img{
-    border: black outset 2px;
+img{
+  border: black outset 2px;
+  align-items: center;
   }
-  td{
-    color: white;
+td{
+  color: white;
   }
+iframe{
+  border: black outset 2px;
+  }
+#image
+{
+    line-height:650px;
+    width: 800px;
+    height: auto;
+    border:5px solid black;
+    margin:0 auto;
+    background-color:rgb(82, 8, 8);
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+    font-size: 150%;
+}
+.preview
+{
+	width:10%;
+	margin-left:17%;
+  border: 10px solid black;
+}
+input{
+  border:1px solid black;
+}
+input:focus{
+  background-color: #E6E6E6;
+}
+fieldset{
+  margin-bottom: 4%;
+}
+/* for responsive images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+/* for responsive video */
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 50%;
+  padding: 0;
+  overflow: hidden;
+}
+.float-container {
+  
+  padding: 20px;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}  

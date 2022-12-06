@@ -1,0 +1,40 @@
+label{
+    font-size: 150%;
+    
+}
+p{
+    font-size: 150%;
+}
+legend{
+    font-size: 150%;
+    font-weight: 130%;
+}
+a:link {
+    color: rgb(255, 255, 255);
+    }
+    
+    
+  a:visited {
+    color: lightblue;
+    }
+    
+    
+  a:hover {
+    color: rgb(184, 129, 28);
+    }
+    
+    
+  a:active {
+    color: blue;
+    }
+    /* for responsive images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+label{
+  font-size: 1.4vw;
+}
+legend{
+  font-size: 1.5vw;
+}
