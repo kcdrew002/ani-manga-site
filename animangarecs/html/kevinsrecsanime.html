@@ -2,16 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Anime/Manga Recommendations</title> 
-    <link rel="stylesheet" href="css/hw1.css">
+    <title>Anime Recommendations</title> 
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/hw1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="icon" href="../images/akatsuki_cloud_png_by_cporsdesigns_dcnlwkp-fullview.ico" type="inage/icon type">
 </head>
 
-<body style="background-color: rgba(138, 50, 54, 0.897);">
+<body style="background-color: rgba(138, 50, 54, 0.897);" top-padding="65px;">
     <main>
-        <nav><a href="kevinsrecs.html">Home</a></nav>
-        <h1><center>Anime Recommendations</center></h1>
-        <h3><center>The table below contains my recommendations and links to the to Crunchyroll page of each anime. Each of these shows can be viewed for free if you your research ;) </center></h3>
-        <center><table>
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a href="../html/kevinsrecs.html" class="navbar-brand mb-0 h1">
+                    <img class="d-inline-block align-top" src="https://i.ibb.co/gFC8Bpc/Akatsuki-Logo.png" width="30"
+                        height="auto">
+                    Kevin's Recs
+                </a>
+        
+                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="../html/kevinsrecs.html" class="nav-link">Home</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/kevinsrecsmanga.html" class="nav-link">Manga</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/kevinsrecsanime.html" class="nav-link">Anime</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/favoritecharacters.html" class="nav-link">Characters</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/favoritefights.html" class="nav-link">Fights</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/favoriteopenings.html" class="nav-link">Openings</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/clothing.html" class="nav-link">Apparel</a>
+        
+                        </li>
+                
+                    </ul>
+        
+                </div>
+            </div>
+        </nav>
+        <br/>
+        <h3 style="background-color: black;">Four Anime I Recommend</h3>
+        <!-- table for recommendations -->
+        <center><table class="table table-dark table-striped table-hover table-responsive">
             <tr>
                 <td><strong>Anime Title</strong></td>
                 <td><strong>Image</strong></td>
@@ -22,22 +74,22 @@
                 <strong>
                     <h3><a href="https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba"target="_blank">Demon Slayer</a></h3>
                 </strong>
-                <h4>Adventure-Dark Fantasy-Martial Arts</h4>
+                <h4 style="font-size: 1.2vw;">Adventure-Dark Fantasy-Martial Arts</h4>
             </td>
             <td>
-                <a href="https://ibb.co/LCj9Mvm"><img src="https://i.ibb.co/nDdQTR9/Giyu-9.jpg" alt="Giyu-9" border="0" width="400"></a>
+                <a href="https://ibb.co/LCj9Mvm"><img class="img-fluid"  src="https://i.ibb.co/nDdQTR9/Giyu-9.jpg" alt="Giyu-9" border="0" width="400"></a>
 
             </td>
-            <td>Demon slayer was won of my favorite manga and since its animated by Ufotable the anime is the potential to outdue its manga counterpart. This anime is about a boy named Tanjiro whose on a quest kill demons and turn his sister back into a human. Its action packed and has a good balance of serious and funny moments.</td>
+            <td>Demon slayer was one of my favorite manga and since its animated by Ufotable the anime has the potential to outdue its manga counterpart. This anime is about a boy named Tanjiro whose on a quest kill demons and turn his sister back into a human. It's action packed and has a good balance of serious and funny moments.</td>
                 <tr>
                     <td>
                         <strong>
                             <h3><a href="https://www.crunchyroll.com/mushoku-tensei-jobless-reincarnation"target="_blank">Jobless Reincarnation</a></h3>
                         </strong>
-                        <h4>Fantasy-Isekai</h4>
+                        <h4 style="font-size: 1.2vw;">Fantasy-Isekai</h4>
                     </td>
                     <td>
-                        <a href="https://ibb.co/TcFTmzW"><img src="https://i.ibb.co/8MSB6FY/Mushoku-Tensei-Cover.jpg"target="_blank" alt="Mushoku-Tensei-Cover" border="0" width="400"></a>
+                        <a href="https://ibb.co/TcFTmzW"><img class="img-fluid"  src="https://i.ibb.co/8MSB6FY/Mushoku-Tensei-Cover.jpg"target="_blank" alt="Mushoku-Tensei-Cover" border="0" width="400"></a>
 
 
                     </td>
@@ -47,29 +99,31 @@
                     <td>
                         <strong>
                             <h3><a href="https://www.crunchyroll.com/parasyte-the-maxim-"target="_blank">Parasyte -the maxim-</a></h3>
-                       <h4>Horror-Thriller-Science Fiction</h4>
+                       <h4 style="font-size: 1.2vw;">Horror-Thriller-Science Fiction</h4>
                     <td>
-                        <a href="https://ibb.co/wNH4shL"><img src="https://i.ibb.co/XZBt8x4/parasyte.jpg" alt="parasyte" border="0" width="400"></a>
+                        <a href="https://ibb.co/wNH4shL"><img class="img-fluid"  src="https://i.ibb.co/XZBt8x4/parasyte.jpg" alt="parasyte" border="0" width="400"></a>
 
                     </td>
-                    <td>Parayte is one of my favorite anime even thought it makes me sad to think about it. It's full of suspense, action, an mystery.</td>
+                    <td>Parayte is one of my favorite anime even thought it makes me sad to think about it. It's full of suspense, action, and mystery.</td>
                 </tr>
                 <tr>
                     <td>
                         <strong>
                             <h3><a href="https://www.crunchyroll.com/to-your-eternity"target="_blank">To Your Eternity</a></h3>
                         </strong>
-                        <h4>Fantasy-Super Natural</h4>
+                        <h4 style="font-size: 1.2vw;">Fantasy-Super Natural</h4>
                     </td>
                     <td>
-                        <a href="https://ibb.co/QHZD8Nc"><img src="https://i.ibb.co/gWG4vT7/Fumetsu-no-Anata-e-13-1.jpg" alt="Fumetsu-no-Anata-e-13-1" border="0" width="400"></a>
+                        <a href="https://ibb.co/QHZD8Nc"><img class="img-fluid"  src="https://i.ibb.co/gWG4vT7/Fumetsu-no-Anata-e-13-1.jpg" alt="Fumetsu-no-Anata-e-13-1" border="0" width="400"></a>
                       
                     </td>
                     <td>To Your Eternity is one of my favorite anime of all time but also one of the saddest I've seen. Fushi is a being who is learning to become human through meeting friend and foes. If you enjoy mystery, action, and suspenseful anime, this is the show for you. </td>
                 </tr>
              
         </table></center>
-       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>  
     </main>
     <footer></footer>
 </body>

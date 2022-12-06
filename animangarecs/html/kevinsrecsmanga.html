@@ -2,16 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Anime/Manga Recommendations</title>
-    <link rel="stylesheet" href="css/hw1.css"> 
+    <title>Manga Recommendations</title>
+    <!-- for relative design -->
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/hw1.css"> 
+    <script src = "../js/gallery.js"></script>
+    <!-- bootstrap css link for navbar -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="icon" href="../images/akatsuki_cloud_png_by_cporsdesigns_dcnlwkp-fullview.ico" type="inage/icon type">
 </head>
 
 <body style="background-color: rgba(138, 50, 54, 0.897);">
     <main>
-        <nav><a href="kevinsrecs.html">Home</a></nav>
-        <h1><center>Manga Recommendations</center></h1>
-        <h3><center>The table below contains my recommendations and links to the to Shonen Jump page of each manga. Each of these manga can be viewed for free if you your research ;)  </center></h3>
-        <center><table>
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a href="../html/kevinsrecs.html" class="navbar-brand mb-0 h1">
+                    <img class="d-inline-block align-top" src="https://i.ibb.co/gFC8Bpc/Akatsuki-Logo.png" width="30"
+                        height="auto">
+                    Kevin's Recs
+                </a>
+        
+                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="../html/kevinsrecs.html" class="nav-link">Home</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/kevinsrecsmanga.html" class="nav-link">Manga</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/kevinsrecsanime.html" class="nav-link">Anime</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/favoritecharacters.html" class="nav-link">Characters</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/favoritefights.html" class="nav-link">Fights</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/favoriteopenings.html" class="nav-link">Openings</a>
+        
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/clothing.html" class="nav-link">Apparel</a>
+        
+                        </li>
+                
+                    </ul>
+        
+                </div>
+            </div>
+        </nav>
+        <br/>
+        <h3 style="background-color: black;">Four Manga I Recommend</h3>
+        <!-- table for recommendations -->
+        <table class="table table-dark table-striped table-hover table-responsive">
             <tr>
                 <td><strong>Manga</strong></td>
                 <td><strong>Image</strong></td>
@@ -23,24 +78,24 @@
                 <strong>
                     <h3><a href="https://www.viz.com/shonenjump/chapters/chainsaw-man"target="_blank">Chainsaw Man</a></h3>
                 </strong>
-                <h4>Action-Comedy-Horror</h4>
+                <h4 style="font-size: 1.2vw;">Action-Comedy-Horror</h4>
             </td>
             <td>
-                <a href="https://imgbb.com/"><img src="https://i.ibb.co/92G05hN/580-SJManga-Headers-Chainsaw-Man-2000x800-wm.jpg" alt="580-SJManga-Headers-Chainsaw-Man-2000x800-wm" border="0" width="400"></a>
+                <a href="https://imgbb.com/"><img class="img-fluid" src="https://i.ibb.co/92G05hN/580-SJManga-Headers-Chainsaw-Man-2000x800-wm.jpg" alt="580-SJManga-Headers-Chainsaw-Man-2000x800-wm" border="0" width="400"></a>
 
             </td>
-            <td>I read this manga last spring in my dorm room and count stop once I started. Chainsaw Man is extremely engaging and great if you enjoy a little gore and comedy in your manga. </td>
+            <td>I read this manga last spring in my dorm room and couldn't stop once I started. Chainsaw Man is extremely engaging and great if you enjoy a little gore and comedy in your manga. </td>
            
                 <tr>
                     <td>
                         <strong>
                             <h3><a href="https://www.viz.com/shonenjump/chapters/dandadan"target="_blank">Dandadan</a></h3>
                         </strong>
-                        <h4>Action-Romatic Comedy-<br>Supernatural Thriller</br></h4>
+                        <h4 style="font-size: 1.2vw;">Action-Romatic Comedy-<br>Supernatural Thriller</br></h4>
                     </td>
                     
                     <td>
-                        <a href="https://ibb.co/k4DWKbG"><img src="https://i.ibb.co/y6kb0vN/Dandadan-MANGA-Plus.jpg" alt="Dandadan-MANGA-Plus" border="0"width="400"></a>
+                        <a href="https://ibb.co/k4DWKbG"><img class="img-fluid" src="https://i.ibb.co/y6kb0vN/Dandadan-MANGA-Plus.jpg" alt="Dandadan-MANGA-Plus" border="0"width="400"></a>
                     </td>
                     <td>As of right now I'm about 30 chapters in to this manga so I'm about halfway through, even though there are still chapters releasing daily. This manga is just really funny overall and has amazing action panels and a storyline to back it up. </td>
                 </tr>
@@ -48,11 +103,11 @@
                     <td>
                         <strong>
                             <h3><a href="https://www.viz.com/shonenjump/chapters/mashle"target="_blank">Mashle: Muscles and Magic</a></h3>
-                       <h4>Adventure-Fantasy Comedy</h4>
+                       <h4 style="font-size: 1.2vw;">Adventure-Fantasy Comedy</h4>
                     <td>
-                        <a href="https://ibb.co/PwTQNCN"><img src="https://i.ibb.co/jgVRT4T/Mashle-Anime-Announced.png" alt="Mashle-Anime-Announced" border="0" width="400"></a>
+                        <a href="https://ibb.co/PwTQNCN"><img class="img-fluid" src="https://i.ibb.co/jgVRT4T/Mashle-Anime-Announced.png" alt="Mashle-Anime-Announced" border="0" width="400"></a>
                     </td>
-                    <td>The way I like to think of this manga is like a Siatama from One Punch Man enrolled in Hogwarts. Mash uses his pure athleticism to defeat enemies with immense magical capabilies. This manga a good mix of comedy and action and is getting an anime adaptation in 2023. </td>
+                    <td> I like to think of this manga as Siatama from One Punch Man enrolled in Hogwarts. Mash uses his pure athleticism to defeat enemies who possess immense magical capabilies. This manga a good mix of comedy and action and is getting an anime adaptation in 2023. </td>
 
                 </tr>
                 <tr>
@@ -60,18 +115,22 @@
                         <strong>
                             <h3><a href="https://www.viz.com/shonenjump/chapters/the-promised-neverland"target="_blank">The Promised Neverland</a></h3>
                         </strong>
-                        <h4>Dark Fantasy-Science Fiction-<br>Thriller</br></h4>
+                        <h4 style="font-size: 1.2vw;">Dark Fantasy-Science Fiction-<br>Thriller</br></h4>
                     </td>
                     <td>
-                        <a href="https://ibb.co/9pVYsZK"><img src="https://i.ibb.co/nwnkzPd/the-promised-neverland-volume-8-review.jpg" alt="the-promised-neverland-volume-8-review" border="0" width="400"></a>
+                        <a href="https://ibb.co/9pVYsZK"><img class="img-fluid"  src="https://i.ibb.co/nwnkzPd/the-promised-neverland-volume-8-review.jpg" alt="the-promised-neverland-volume-8-review" border="0" width="400"></a>
 
                     </td>
-                    <td>The manga is about a group of orphans trying to escape and survive in a world of demons. It's full of suspense and msytery and was one of the first manga I've completed.</td>
+                    <td>The manga is about a group of orphans trying to escape and survive in a world of demons. It's full of suspense and mystery and was one ,of the first manga I've completed.</td>
 
                 </tr>
              
-        </table></center>
-       
+        </table>
+            <!-- bootstrap js link for navbar -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>   
     </main>
     <footer></footer>
 </body>
